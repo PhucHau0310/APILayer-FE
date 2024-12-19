@@ -19,7 +19,18 @@ body {
     background: var(--background);
     font-family: Arial, Helvetica, sans-serif;
 }
-
+#list{
+    font-size: 18px;
+    color: green
+}
+#A{
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+#Article-Glossary{
+    margin-left: 30rem;
+    margin-right: 30rem;
+}
 /* Tuỳ chỉnh giao diện loading bar */
 #nprogress .bar {
     background: #0052cc; /* Màu thanh loading */
