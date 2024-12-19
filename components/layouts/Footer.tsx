@@ -49,24 +49,26 @@ const Footer = () => {
                         <h1 className="text-white text-base font-semibold mb-4">Sitemap</h1>
                         <ul className="space-y-1">
                             <li>
-                                <a href="/marketplace" className="hover:underline">Marketplace</a>
+                                <a href="/marketplace">Marketplace</a>
                             </li>
                             <li>
-                                <a href="/about" className="hover:underline">About</a>
+                                <a href="/about">About</a>
                             </li>
                             <li>
-                                <span className="cursor-default">API Glossary</span>
+                                <a href="/API-Glossary">API Glossary</a>
                             </li>
                             <li>
-                                <a href="/docs" className="hover:underline">Documentation</a>
+                                <a href="/docs">Documentation</a>
                             </li>
                         </ul>
                     </div>
 
 
                     <div className="w-[20%]  text-[#97a1af]">
-                        <p className="mt-6">Contact Sales</p>
-                        <p>Helpdesk</p>
+                        <ul>
+                            <li className="mt-6"><a href="/support">Contact Sales</a></li>
+                            <li><a href="/support">Helpdesk</a></li>
+                        </ul>
                     </div>
 
                     <div className="w-[20%]  text-[#97a1af]">
@@ -74,14 +76,14 @@ const Footer = () => {
                             Connect
                         </h1>
                         <div className="flex flex-row items-center gap-4 mt-3">
-                            <Link href={'/'}>
+                            <Link href={'https://instagram.com'}>
                                 <FontAwesomeIcon
                                     icon={faInstagram}
                                     size="1x"
                                     color="white"
                                 />
                             </Link>
-                            <Link href={'/'}>
+                            <Link href={'https://fb.me'}>
                                 <FontAwesomeIcon
                                     icon={faFacebook}
                                     size="1x"
@@ -89,7 +91,7 @@ const Footer = () => {
                                     className="cursor-pointer"
                                 />
                             </Link>
-                            <Link href={'/'}>
+                            <Link href={'https://www.linkedin.com/'}>
                                 <FontAwesomeIcon
                                     icon={faLinkedinIn}
                                     size="1x"
@@ -97,7 +99,7 @@ const Footer = () => {
                                     className="cursor-pointer"
                                 />
                             </Link>
-                            <Link href={'/'}>
+                            <Link href={'https://x.com'}>
                                 <FontAwesomeIcon
                                     icon={faTwitter}
                                     size="1x"
@@ -105,7 +107,7 @@ const Footer = () => {
                                     className="cursor-pointer"
                                 />
                             </Link>
-                            <Link href={'/'}>
+                            <Link href={'https://youtube.com'}>
                                 <FontAwesomeIcon
                                     icon={faYoutube}
                                     size="1x"
@@ -113,7 +115,7 @@ const Footer = () => {
                                     className="cursor-pointer"
                                 />
                             </Link>
-                            <Link href={'/'}>
+                            <Link href={'https://github.com/PhucHau0310/APILayer-BE'}>
                                 <FontAwesomeIcon
                                     icon={faGithub}
                                     size="1x"
