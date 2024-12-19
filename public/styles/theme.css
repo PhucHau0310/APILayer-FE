@@ -408,6 +408,8 @@ h6, .h6 {
 .lead {
     font-size: 1.25rem;
     font-weight: 400;
+    color: gray;
+    margin-bottom: 1rem;
 }
 
 .display-1 {
@@ -22610,6 +22612,7 @@ label.btn {
 }
 
 .max-w-23rem {
+    margin-left: 10rem;
     max-width: 11rem;
 }
 
